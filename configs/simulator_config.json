@@ -1,0 +1,10 @@
+{
+  "iterations": 10,
+  "sequences_num": 100,
+  
+  "input_file": "",
+  "generate_sequences": true,
+  "random_seed": null,
+  
+  "output_dir": "results"
+}
