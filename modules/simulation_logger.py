@@ -39,6 +39,7 @@ class SimulationLogger:
     def save_settings(self, params: dict[str, Any]) -> None:
         payload = {
             **params,
+            "sequence_length": nuc_config.sequence_length,
             "nucleotide_initial_distribution": nuc_config.nucleotides,
             "nucleotide_transition_matrix": nuc_config.transition_matrix,
         }
